@@ -1,0 +1,47 @@
+/* all element selector : should add in all css*/
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*id selector*/
+#main-title {
+    background-color: gray;
+    height: 90px;
+    width: 100%;
+    font-size: 60px;
+    color: white;
+    /* horizontally center */
+    justify-content: center;
+    display: flex;
+    /* vertically center */
+    align-items: center;
+}
+#main-body{
+    margin: 10px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.Card {
+    /* border-bottom:width tyoe color; */
+    border-bottom: 4px solid red;
+    min-height: 300px;
+    width: 250px;
+    margin:4px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow:x offset y offset blur radius spread radius color */
+    box-shadow: 3px 3px 20px 10px gray;
+}
+.Cardtitle{
+    background-color: red;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    color: azure;
+    border-radius: 10px 10px 0px 0px;
+}
