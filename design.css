@@ -45,3 +45,59 @@ body{
     color: azure;
     border-radius: 10px 10px 0px 0px;
 }
+.Cardbody{
+    font-size: 14px;
+}
+.Card1{
+    border-bottom: 4px solid rgb(218, 205, 22);
+    min-height: 300px;
+    width: 250px;
+    margin:4px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow:x offset y offset blur radius spread radius color */
+    box-shadow: 3px 3px 20px 10px gray;
+
+}
+.Cardtitle1{
+    background-color: rgb(218, 205, 22);
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    color: azure;
+    border-radius: 10px 10px 0px 0px;
+}
+.Card2{
+    border-bottom: 4px solid blue;
+    min-height: 300px;
+    width: 250px;
+    margin:4px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow:x offset y offset blur radius spread radius color */
+    box-shadow: 3px 3px 20px 10px gray;
+}
+.Cardtitle2{
+    background-color: blue;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+    color: azure;
+    border-radius: 10px 10px 0px 0px;  
+}
+.dark{
+    background-color: #c0c0c0;
+    border-bottom:1px solid rgb(218, 205, 22) ;
+    border-top: 1px solid rgb(218, 205, 22);
+}
+.dark1{
+    background-color: #c0c0c0;
+}
+.padd{
+    margin:10px;
+    background-color: #c0c0c0;
+}
