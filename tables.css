@@ -1,0 +1,39 @@
+/* table{
+    border-collapse: collapse;
+}*/
+table,th,td{
+    border: 2px solid gray;
+}
+table{
+    width: 100%;
+    height: 60px;
+    background-color: palegreen ;
+    background-image:url("./k.jpg") ;
+}
+/* row size all*/
+tr{
+    height: 20px;
+}
+/* column size all */
+th{
+    width: 240px;
+}
+td{
+    width: 200px;
+}
+/* specific column width  */
+#col{
+    width: 30%;
+}
+/* specific row height */
+#row{
+    height: 40px;
+}
+.co{
+    background-color: aquamarine;
+}
+/* border radius */
+table{
+    border-radius: 10px;
+}
+
