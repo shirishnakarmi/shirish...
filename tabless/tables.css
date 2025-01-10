@@ -8,7 +8,7 @@ table{
     width: 100%;
     height: 60px;
     background-color: palegreen ;
-    background-image:url("./k.jpg") ;
+    background-image:url("../k.jpg") ;
 }
 /* row size all*/
 tr{
